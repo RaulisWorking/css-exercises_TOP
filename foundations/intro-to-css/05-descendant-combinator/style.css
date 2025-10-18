@@ -1,1 +1,22 @@
 /* Add CSS Styling */
+
+.container p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+/* ALTERNATIVES */
+/* div p {
+    background-color: blue;
+    color: green;
+    font-size: 40px;
+    text-align: center;
+} */
+
+/* .container .text {
+    background-color: green;
+    color: purple;
+    font-size: 30px;
+    text-align: center;
+} */
