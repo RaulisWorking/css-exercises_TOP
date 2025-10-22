@@ -14,10 +14,8 @@ body {
 .title,
 .content,
 .button-container {
-  margin: 8px;
+  margin-top: 8px;
 }
-
-
 
 .title {
   background: #e3f4ff;
