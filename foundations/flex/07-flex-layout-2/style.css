@@ -19,7 +19,6 @@ body {
   font-size: 2rem;
   font-weight: 900;
   padding-left: 1rem;
-  
 }
 
 .footer {
@@ -29,27 +28,45 @@ body {
   justify-content: center;
 }
 
-.main {
+main {
   flex: 1;
   display: flex;
   flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  gap: 3rem;
+
 }
 
 .sidebar {
-  flex: 1 auto;
+  flex: none;
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
 }
 
+.sidebar > ul {
+  list-style: none;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
 .cards {
   flex: 1 auto;
   display: flex;
-  gap: 2rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: normal;
+  margin: 3rem;
 }
 
 .card {
-  flex: 1;
+  flex: 0 0 400px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
