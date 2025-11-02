@@ -44,10 +44,17 @@ main {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 1rem;
 }
 
 .sidebar > ul {
   list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+li {
+  margin-bottom: 1rem;
 }
 
 ul > li > a {
@@ -61,14 +68,14 @@ ul > li > a {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
-  align-items: normal;
   margin: 3rem;
 }
 
 .card {
-  flex: 0 0 400px;
+  flex: 0 0 350px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 1rem;
 
 }
